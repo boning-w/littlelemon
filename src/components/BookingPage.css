@@ -1,0 +1,29 @@
+.bookingpage {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookingpage-title {
+  background-color: #495e57;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.bookingpage-title h1 {
+  width: 800px;
+}
+
+.bookingform {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bookingform > form {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 20px;
+}

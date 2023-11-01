@@ -1,0 +1,51 @@
+.hero-section {
+  background-color: #495e57;
+  color: white;
+  padding: 2% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section div {
+  position: relative;
+  width: 800px;
+}
+
+.hero-section img {
+  width: 220px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero-section h1 {
+  margin: 0;
+  color: #f4ce14;
+  font-size: 50px;
+}
+
+.hero-section h2 {
+  margin: 0;
+  color: #edefee;
+}
+
+.hero-section p {
+  width: 290px;
+}
+
+.hero-section button {
+  background-color: #f4ce14;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.blank-section {
+  width: 100vw;
+  height: 40px;
+}

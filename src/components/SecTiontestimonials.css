@@ -1,0 +1,23 @@
+.testimonials-section {
+  background-color: #495e57;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials-section > div {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-section h2 {
+  font-size: 50px;
+}
+
+.testimonials-section > div > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}

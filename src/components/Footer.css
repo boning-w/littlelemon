@@ -1,0 +1,49 @@
+footer {
+  background-color: #495e57;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+footer > div {
+  width: 800px;
+  display: flex;
+}
+
+footer > div > img {
+  width: 130px;
+  object-fit: scale-down;
+  margin-right: 50px;
+}
+
+.footer-links-sections {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-links-sections h2 {
+  color: #ee9972;
+}
+
+.footer-links-sections > div {
+  flex: 1;
+}
+
+.footer-links-sections nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links-sections a {
+  text-decoration: none;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  color: white;
+}
